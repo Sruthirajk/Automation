@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,6 +115,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testScenarios.Test_Amazon" class="method navigator-link" hash-for-method="addToCartOperation">addToCartOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.Test_Amazon" class="method navigator-link" hash-for-method="email(lordzeus4646@gmail.com)">email(lordzeus4646@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenarios.Test_Amazon" class="method navigator-link" hash-for-method="password(Lord@123)">password(Lord@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -157,6 +167,22 @@
                   <span class="method-name">addToCartOperation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="email(lordzeus4646@gmail.com)">
+                  </a> <!-- email(lordzeus4646@gmail.com) -->
+                  <span class="method-name">email</span>
+                  <span class="parameters">(lordzeus4646@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="password(Lord@123)">
+                  </a> <!-- password(Lord@123) -->
+                  <span class="method-name">password</span>
+                  <span class="parameters">(Lord@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -172,6 +198,8 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;search&quot; value=&quot;Hauser XO Ball Pen&quot;/&gt;
     &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.in/&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;lordzeus4646@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;Password&quot; value=&quot;Lord@123&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testScenarios.Test_Amazon&quot;/&gt;
     &lt;/classes&gt;
@@ -213,24 +241,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'HomePageOperation1')
+data.setCell(0, 1, 'addToCartOperation')
 data.setCell(0, 2, 'testScenarios.Test_Amazon')
-data.setCell(0, 3, 19377);
+data.setCell(0, 3, 17797);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addToCartOperation')
+data.setCell(1, 1, 'HomePageOperation1')
 data.setCell(1, 2, 'testScenarios.Test_Amazon')
-data.setCell(1, 3, 11038);
+data.setCell(1, 3, 13688);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'HomePageOperation2')
+data.setCell(2, 1, 'email')
 data.setCell(2, 2, 'testScenarios.Test_Amazon')
-data.setCell(2, 3, 1389);
+data.setCell(2, 3, 5726);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HomePageOperation2')
+data.setCell(3, 2, 'testScenarios.Test_Amazon')
+data.setCell(3, 3, 638);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'password')
+data.setCell(4, 2, 'testScenarios.Test_Amazon')
+data.setCell(4, 3, 245);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -262,20 +298,28 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">email(lordzeus4646@gmail.com)</span>
+                <span class="method-start">39442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">password(Lord@123)</span>
+                <span class="method-start">45176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">HomePageOperation1(Hauser XO Ball Pen)</span>
-                <span class="method-start">85185 ms</span>
+                <span class="method-start">45424 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">HomePageOperation2</span>
-                <span class="method-start">104613 ms</span>
+                <span class="method-start">59116 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addToCartOperation</span>
-                <span class="method-start">106010 ms</span>
+                <span class="method-start">59756 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">driverInstance2</span>
-                <span class="method-start">117053 ms</span>
+                <span class="method-start">77557 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

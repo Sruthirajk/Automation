@@ -3,6 +3,8 @@
 <suite name="Suite" guice-stage="DEVELOPMENT">
 	<test thread-count="5" name="Test">
 		<parameter name="url" value="https://www.amazon.in/" />
+		<parameter name="email" value="lordzeus4646@gmail.com" />
+		<parameter name="Password" value="Lord@123" />
 		<parameter name="search" value="Hauser XO Ball Pen" />
 		<classes>
 			<class name="testScenarios.Test_Amazon" />

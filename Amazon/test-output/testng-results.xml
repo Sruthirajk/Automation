@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-11T17:19:36 IST" name="Suite" finished-at="2022-02-11T17:21:34 IST" duration-ms="118135">
+  <suite started-at="2022-02-14T13:57:36 IST" name="Suite" finished-at="2022-02-14T13:58:56 IST" duration-ms="79718">
     <groups>
     </groups>
-    <test started-at="2022-02-11T17:19:36 IST" name="Test" finished-at="2022-02-11T17:21:34 IST" duration-ms="118135">
+    <test started-at="2022-02-14T13:57:36 IST" name="Test" finished-at="2022-02-14T13:58:56 IST" duration-ms="79718">
       <class name="testScenarios.Test_Amazon">
-        <test-method is-config="true" signature="driverInstance1(java.lang.String)[pri:0, instance:testScenarios.Test_Amazon@78123e82]" started-at="2022-02-11T17:19:36 IST" name="driverInstance1" finished-at="2022-02-11T17:21:01 IST" duration-ms="85156" status="PASS">
+        <test-method is-config="true" signature="driverInstance1(java.lang.String)[pri:0, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-14T13:57:36 IST" name="driverInstance1" finished-at="2022-02-14T13:58:16 IST" duration-ms="39431" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInstance1 -->
-        <test-method signature="HomePageOperation1(java.lang.String)[pri:0, instance:testScenarios.Test_Amazon@78123e82]" started-at="2022-02-11T17:21:01 IST" name="HomePageOperation1" finished-at="2022-02-11T17:21:21 IST" duration-ms="19377" status="PASS">
+        <test-method signature="email(java.lang.String)[pri:0, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-14T13:58:16 IST" name="email" finished-at="2022-02-14T13:58:21 IST" duration-ms="5726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lordzeus4646@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method signature="password(java.lang.String)[pri:1, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-14T13:58:21 IST" name="password" finished-at="2022-02-14T13:58:22 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lord@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="HomePageOperation1(java.lang.String)[pri:2, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-14T13:58:22 IST" name="HomePageOperation1" finished-at="2022-02-14T13:58:35 IST" duration-ms="13688" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageOperation1 -->
-        <test-method signature="HomePageOperation2()[pri:0, instance:testScenarios.Test_Amazon@78123e82]" started-at="2022-02-11T17:21:21 IST" name="HomePageOperation2" finished-at="2022-02-11T17:21:22 IST" duration-ms="1389" status="PASS">
+        <test-method signature="HomePageOperation2()[pri:3, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-14T13:58:35 IST" name="HomePageOperation2" finished-at="2022-02-14T13:58:36 IST" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageOperation2 -->
-        <test-method signature="addToCartOperation()[pri:0, instance:testScenarios.Test_Amazon@78123e82]" started-at="2022-02-11T17:21:22 IST" name="addToCartOperation" finished-at="2022-02-11T17:21:33 IST" duration-ms="11038" status="PASS">
+        <test-method signature="addToCartOperation()[pri:4, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-14T13:58:36 IST" name="addToCartOperation" finished-at="2022-02-14T13:58:54 IST" duration-ms="17797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartOperation -->
-        <test-method is-config="true" signature="driverInstance2()[pri:0, instance:testScenarios.Test_Amazon@78123e82]" started-at="2022-02-11T17:21:33 IST" name="driverInstance2" finished-at="2022-02-11T17:21:34 IST" duration-ms="1034" status="PASS">
+        <test-method is-config="true" signature="driverInstance2()[pri:0, instance:testScenarios.Test_Amazon@67c33749]" started-at="2022-02-14T13:58:54 IST" name="driverInstance2" finished-at="2022-02-14T13:58:56 IST" duration-ms="2130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInstance2 -->
